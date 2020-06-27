@@ -10,10 +10,10 @@
 
     <FORM action="script.php" method= "post">
 
-    <p>seu nome: <input type="text" name = "nome"/></p>
-    <p>sua idade: <input type="text" name = "idade"/></p>
+    <p>seu nome: <input type="text" name = 'nome'/></p>
+    <p>sua idade: <input type="text" name = 'idade'/></p>
 
-    <p><input type="submit"/></p>
+    <p><input type="submit"value ="envia dados dos competidores"/></p>
     
     
     
