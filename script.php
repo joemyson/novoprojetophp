@@ -16,6 +16,12 @@ $categorias[] = 'idoso';
 $nome = $_POST['nome'];
 $idade = $_POST['idade'];
 
+if(empty($nome)){
+
+    echo 'nome não pode ser vazio';
+    return;
+}
+
 
 if ($idade >= 6 && $idade <=12){
 
